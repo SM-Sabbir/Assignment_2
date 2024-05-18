@@ -53,9 +53,7 @@ class Member {
  
  // TODO: Add borrowBook method
  public function borrowBook($book) {
-    if ($book->borrowBook()) {
-        echo "{$this->name} borrowed '{$book->getTitle()}'\n";
-    }
+    return $book->borrowBook();
 }
  
 

@@ -21,4 +21,3 @@ function countVowels($string) {
     return $count;
 }
 
-?>
